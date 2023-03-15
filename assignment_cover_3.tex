@@ -1,0 +1,72 @@
+\documentclass[12pt]{article}
+\usepackage{enumerate,fancyhdr,lastpage,comment,
+framed,graphicx,float,caption,setspace,xcolor,tabularx,array}
+\usepackage[a4paper, margin=1in, bottom=0.5in,top=0.8in]{geometry}
+\usepackage{amsmath, amssymb, amsthm,amsfonts,cancel}
+\usepackage{color, colortbl}
+\usepackage[space]{grffile}
+\definecolor{LightOrange}{RGB}{255,245,230}
+\definecolor{LightBlue}{RGB}{201, 209, 232}
+\setlength{\headheight}{15pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+
+\setlength{\footskip}{32pt}
+
+\linespread{1.25}
+\addtolength{\topmargin}{-.25in}
+\addtolength{\textheight}{1in}
+
+\begin{document}
+\begin{center}
+	 \includegraphics[scale=3]{fig_logo.png}\\
+	 \verb|  |
+	 \centering
+	 {\large \textbf{\textsf{XIAMEN UNIVERSITY MALAYSIA}}}
+
+	 \textbf{\textsf{(Academic Session: SESSION)}}
+	 
+	 \vspace{20pt}
+	 {\Large {\textbf{CCODE: COURSE
+	 }}}
+	 
+	 
+	 \vspace{5pt}
+	 {\LARGE \textsc{ASSIGNMENT}}
+	
+	\vspace{15pt}
+	
+	\begin{tabularx}{1\textwidth} { 
+		   >{\raggedleft\arraybackslash\hsize=0.5\hsize}X 
+		   >{\raggedright\arraybackslash\hsize=0.5\hsize}X }
+		\textbf{Name:} & STUDENT-NAME \\ 
+		
+		\textbf{Student ID:} & STUDENT-ID \\   
+		
+		\textbf{File Size:} & SIZE \\  
+		
+		\textbf{Submission Time:} & SUBMISSION \\
+	\end{tabularx}
+	\\
+	\vspace{30pt}
+	\setlength\arrayrulewidth{1pt}
+	\def\arraystretch{1.75}
+	\begin{tabularx}{0.8\textwidth}{
+			|>{\centering\arraybackslash\hsize=0.5\hsize}X|
+			>{\centering\arraybackslash\hsize=0.25\hsize}X|
+			>{\centering\arraybackslash\hsize=0.25\hsize}X|
+		}	
+		\hline
+		\rowcolor{LightOrange}
+		\textbf{Component}& \textbf{Marks} & \textbf{Maximum} \\  \hline
+		SCRIPT2 \\ \hline
+		\rowcolor{LightBlue}
+		\textsc{Total} &  SCRIPT3  \\ \hline
+	\end{tabularx}
+\end{center}
+
+
+\end{document}
+
